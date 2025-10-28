@@ -76,16 +76,6 @@ if uploaded_file:
     st.image(st.session_state.image, caption="Ваше фото", use_container_width=True)
 
 
-if st.button("📷 **Загрузить ещё фото**", type="secondary"):
-    st.session_state.image = None
-    st.session_state.image_with_boxes = None
-    st.session_state.advice_text = ""
-    st.session_state.detections = []
-    st.session_state.button_response = ""
-    st.session_state.last_topic = ""
-    st.session_state.expander_expanded = False
-    st.rerun() 
-
 
 if st.session_state.image and st.button("🔍 **Анализировать**", type="primary"):
 

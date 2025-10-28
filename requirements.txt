@@ -2,3 +2,4 @@ ultralytics
 streamlit
 pillow
 python-dotenv
+sambanova
