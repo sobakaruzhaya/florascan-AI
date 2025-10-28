@@ -3,7 +3,7 @@
 
 ## Установка
 1. Скачайте репозиторий
-   ``` git clone https://github.com/sobakaruzhaya/florascan-A ```
+   ``` git clone https://github.com/sobakaruzhaya/florascan-AI ```
 2. Установите зависимости (Рекомендуем использовать Python 3.11)
    ``` pip install -r requirements.txt ```
 3. Скачайте модель по [ссылке](https://download1348.mediafire.com/uofcguujt1kgCoFoy87DYSmARDWRS7Ue4GUL2pCvsbrRst1Nx_vfJ3Azrn4UfEeJsvUD8aAD7OGQlAN4Pf92Q8svQlNGb9h1h2qG-MZ4qJyKSmw-8BHgfeeXxAAE3kh35lOwoBADxaJ_SlG9WfMn7lhjJQq-bBbu6Xy2eRvdJFan/e8iyv2hfma9tiy9/best.pt) и перенесите ее в папку models/
